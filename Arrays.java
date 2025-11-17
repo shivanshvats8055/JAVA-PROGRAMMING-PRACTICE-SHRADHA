@@ -533,12 +533,70 @@ import java.util.*;
 //     }
 // }
 
+
+
+// // two numbers are entered by the user , x and n. write a function to find the value of one number raised to the power another x to the power n.
+// public class shivansh{
+//     public static void powerCalculation(int x,int n){
+//         int result = 1;
+//         for(int i = 1;i<=n;i++){
+//             result = result*x;
+//         }
+        
+//         System.out.println(result);
+//     }
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+//         int x = sc.nextInt();
+//         int n = sc.nextInt();
+
+//         powerCalculation(x, n);
+//     }
+    
+// }
+
 // // write a program to enter the numbers till the user wants and at the end it should display the count of positive negative and zeros entered
 
-// two numbers are entered by the user , x and n. write a function to find the value of one number raised to the power another x to the power n.
+// array 
+// defining an array
+// type[] arrayName = new type[size];
 
-        
+// public class Arrays{
+//     public static void main(String[] args){
+//       int[] marks = new int[3];
+//       marks[0] = 97;
+//       marks[1] = 98;
+//       marks[2] = 95;
+//     //   System.out.println(marks[0]);
+//     //   System.out.println(marks[1]);
+//     //   System.out.println(marks[2]);
+//     for(int i = 0;i<3;i++){
+//         System.out.println(marks[i]);
+//     }
 
+
+
+//     }
+// }
     
+// public class Arrays{
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+//         int size = sc.nextInt();
+//         int numbers[] = new int[size];
+
+//         // input
+//         for(int i = 0;i<size;i++){
+//             numbers[i] = sc.nextInt();
+//         } 
+//         //for loop for output
+//         for(int i = 0;i<size;i++){
+//             System.out.println(numbers[i]);
+//         }  
+//     }
+
+// }
+
+
 
 
